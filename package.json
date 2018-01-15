@@ -10,16 +10,15 @@
   "author": "rkdgusrnrlrl@gmail.com",
   "license": "MIT",
   "dependencies": {
-    "apidoc": "^0.17.6",
-    "body-parser": "^1.17.2",
-    "cors": "^2.8.4",
-    "express": "^4.16.2",
-    "firebase": "^4.3.0",
-    "request": "^2.81.0",
-    "request-promise-native": "^1.0.4"
+    "express": "^4.16.2"
   },
   "keywords": [
     "docker",
     "pm2"
-  ]
+  ],
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0",
+    "supertest": "^3.0.0"
+  }
 }
